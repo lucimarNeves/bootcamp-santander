@@ -2,7 +2,7 @@
 server:
   port: 8080
   servelet:
-  context-path: /bootcamp
+    context-path: /bootcamp
 
 spring:
   datasource:
@@ -19,5 +19,5 @@ spring:
        ddl-auto: none
     
 application:
-  description: Projeto criado para o bootcamp DIO - Santander
+  description: Projeto criado para o bootcamp DIO - Santander / Backend
   
