@@ -7,14 +7,14 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/db_bootcamp
-    username: testeBanco
-    password: 123456
+    url: postgres://dhrcipfqphezyz:aa08b309c3eab00ea67b195bf3f688d4d2be7adf42cdff25911c38d6bfe7e053@ec2-52-0-114-209.compute-1.amazonaws.com:5432/d4ijk73480uic1
+    username: dhrcipfqphezyz
+    password: aa08b309c3eab00ea67b195bf3f688d4d2be7adf42cdff25911c38d6bfe7e053
 
   jpa:
     show-sql: true
     database-platarform: org.hibernate.dialect.PostgreSQLDialect
-    generate-ddl: false
+    generate-ddl: true
     hibernate:
        ddl-auto: none
     
